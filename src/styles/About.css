@@ -1,0 +1,108 @@
+.About {
+  width: 100%;
+  height: 100%;
+  max-width: 2048px;
+  max-height: 1024px;
+  margin: 0 auto 0;
+}
+
+.About .container {
+  width: 100%;
+  background-color: #fcfcfc;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.About .container .description,
+.About .container .images {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.About .container .description {
+  font-family: "Avant Garde Lt";
+  height: 100%;
+  width: 45%;
+  max-width: 55%;
+  margin-left: 8em;
+  margin-top: 29em;
+}
+
+.About .container .description .header {
+  font-size: 3.5em;
+  color: rgb(118,177,212);
+  display: block;
+  border-bottom: 4px solid rgb(118,177,212);
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.About .container .description .body {
+  font-size: 2.2em;
+  font-family: "Avant Garde Lt Medium";
+  color: grey;
+  line-height: 1.6em;
+}
+
+.About .container .images {
+  max-width: 50%;
+  height: 100%;
+  width: 40%;
+}
+
+.About .container .images .image2 {
+  margin-top: 3em;
+}
+
+.About img {
+  width: 87%;
+  display: block;
+}
+
+@media only screen and (max-width: 2048px) {
+  .About .container .description {
+    margin-top: 22.8%;
+    margin-left: 6.24vw;
+  }
+
+  .About .container .description .header {
+    font-size: 2.735vw;
+  }
+
+  .About .container .description .body {
+    font-size: 1.72vw;
+  }
+
+  .About .container .images {
+    margin-top: 3.95%;
+  }
+
+}
+@media only screen and (max-width: 960px) {
+  .About .container .images {
+    transform: scale(0);
+    height: 0;
+  }
+  .About .container {
+    display: inline-block;
+    min-height: 0;
+  }
+  .About .container .description {
+    max-width: 100%;
+    width: 80%;
+    margin: 7% auto 0 auto;
+
+  }
+
+  .About .container .description .header {
+    text-align: center;
+    font-size: 5vw;
+    padding-bottom: 3vw;
+    margin-bottom: 5vw;
+  }
+
+  .About .container .description .body {
+    font-size: 3.5vw
+  }
+}
