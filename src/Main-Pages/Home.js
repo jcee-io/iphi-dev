@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import bg from '../images/home-photo.jpg';
+import svg from '../images/apo-logo.svg';
 import About from './About';
 
 const bgStyles = {
@@ -13,7 +14,9 @@ const bgStyles = {
 
 const Home = props => (
   <div style={bgStyles} className="Home">
+
     <div className="center-circle-container">
+      <img className="svg" src={svg} />
       <div className="center-circle" />
     </div>
   </div>
