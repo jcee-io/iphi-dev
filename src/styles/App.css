@@ -18,6 +18,9 @@ body {
   position: relative;
 }
 
+.front-page {
+  height: 100%;
+}
 @font-face {
   font-family: "Avant Garde Lt";
   src: url(ITC-Avant-Garde-Gothic-LT-Bold.otf);

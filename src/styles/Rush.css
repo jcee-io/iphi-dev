@@ -1,27 +1,28 @@
 .Rush {
   background-color: #fcfcfc;
   width: 100%;
-  max-width: 2048px;
   margin: 0 auto;
   display: flex;
 }
 
 .Rush .images {
-  width: 47%;
+  width: calc(47% - 2vw);
+  max-width: 58em;
 }
 .Rush img {
-  width: 100%;
+  width: calc(100% - 2vw);
+  max-width: 58em;
 }
 
 .Rush .description {
-  margin-top: 20%;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-top: calc(17% + 2vw);
+  margin-left: 3.9%;
+  margin-right: 3.9%;
   width: 60%;
 }
 .Rush .description .header {
   font-family: "Avant Garde Lt";
-  font-size: 3.5em;
+  font-size: calc(16px + 1.2vw);
   color: rgb(118,177,212);
   display: block;
   border-bottom: 4px solid rgb(118,177,212);
@@ -31,24 +32,11 @@
 
 .Rush .description .body {
   font-family: "Avant Garde Lt Medium";
-  font-size: 2.2em;
+  font-size: calc(5.3px + 1.2vw);
   color: grey;
   line-height: 1.6em;
 }
 
-@media only screen and (max-width: 2048px) {
-  .Rush .description {
-    margin-left: 3.9vw;
-    margin-right: 3.9vw;
-  }
-  .Rush .description .header {
-    font-size: 2.735vw;
-  }
-
-  .Rush .description .body {
-    font-size: 1.72vw;
-  }
-}
 @media only screen and (max-width: 960px) {
   .Rush img {
     width: 0;

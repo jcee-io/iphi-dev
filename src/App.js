@@ -9,7 +9,7 @@ import Login from './Main-Pages/Login';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 const FrontPage = () => (
-  <div>
+  <div className="front-page">
     <Home />
     <About />
   </div>
