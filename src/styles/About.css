@@ -64,6 +64,7 @@
   .About .container .images {
     transform: scale(0);
     height: 0;
+    position: absolute;
   }
   .About .container {
     display: inline-block;

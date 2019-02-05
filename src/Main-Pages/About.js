@@ -10,16 +10,10 @@ const About = props => (
       <div className="description">
         <span className="header">ABOUT ALPHA PHI OMEGA</span>
         <span className="body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum
+          Alpha Phi Omega is a co-ed collegiate community service fraternity that
+          strives to develop three cardinal principles: Leadership, Friendship, and Service.
+          The Iota Phi chapter at UC Davis is among the largest in the nation, with members
+          serving more than 10,000 hours in the Davis community each year.
         </span>
       </div>
       <div className="images">

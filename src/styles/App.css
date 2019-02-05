@@ -5,6 +5,7 @@ html {
 body {
   height: 100%;
   background-color: grey;
+  padding-left: calc(100% - 100vw);
 }
 
 #root {

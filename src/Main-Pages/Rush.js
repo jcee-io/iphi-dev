@@ -12,18 +12,9 @@ const Rush = props => (
         COME RUSH WITH US!
       </div>
       <div className="body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex
+        If you're interested in making friends and making a difference in the Davis community,
+        come to our RUSH week events! During RUSH week, you'll be able to meet the brothers and 
+        hangout with us in a series of fun and games.
       </div>
     </div>
   </div>

@@ -1,6 +1,57 @@
 .Calendar {
   background-color: grey;
   width: 100%;
-  min-height: 100vh;
-  height: 100vh;
+  height: 100%;
+  padding-top: 10%;
+}
+
+.Calendar .container {
+  width: 80%;
+  height: auto;
+  background-color: #fcfcfc;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: grey;
+  font-family: "Avant Garde Lt Medium";
+  width: 85%;
+  height: 200%;
+  min-width: 42vw;
+  max-width: 1661.4px;
+}
+
+.Calendar .container .header {
+  display: flex;
+  font-size: 3em;
+  justify-content: space-between;
+  width: 100%;
+  height: 5%;
+  padding-top: 1%;
+}
+
+.Calendar .container .header .navigators {
+  width: 6%;
+  display: flex;
+  justify-content: space-between;
+}
+.Calendar .container .header .navigators a {
+  text-decoration: none;
+}
+
+.Calendar .container .header .navigators a:visited {
+  color: grey;
+}
+
+.Calendar .container .row-container {
+  height: 100%;
+}
+.Calendar .container .calendar-row {
+  display: flex;
+  height: calc(95%/6);
+}
+
+.Calendar .container .calendar-row .calendar-node {
+  width: calc(100%/7);
+  font-size: 2em;
+  border: 1px solid grey;
+  height: 100%;
 }
